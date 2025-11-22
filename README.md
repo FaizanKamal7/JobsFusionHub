@@ -299,10 +299,6 @@ If you encounter CORS errors, ensure that:
 
 If any port is in use, you can change them in the respective configuration files.
 
-## License
-
-[Add your license here]
-
 ## Support
 
 For issues and questions, please open an issue in the GitHub repository.
