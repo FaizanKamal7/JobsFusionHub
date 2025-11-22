@@ -1,0 +1,50 @@
+/* Color Variables */
+:root {
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-button: linear-gradient(135deg, #42b983 0%, #359268 100%);
+
+  --color-primary: #42b983;
+  --color-primary-dark: #359268;
+  --color-text: #2c3e50;
+  --color-white: white;
+
+  --color-error-bg: #fee;
+  --color-error-border: #fcc;
+  --color-error-text: #c33;
+
+  --color-bg-light: #f8f9fa;
+  --color-border-light: #e9ecef;
+
+  /* Spacing */
+  --spacing-xs: 10px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 40px;
+  --spacing-4xl: 60px;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 12px rgba(66, 185, 131, 0.3);
+  --shadow-lg: 0 6px 16px rgba(66, 185, 131, 0.4);
+  --shadow-xl: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-base: all 0.3s ease;
+
+  /* Font Sizes */
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 16px;
+  --font-size-xl: 1.1rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+}

@@ -1,0 +1,52 @@
+# Environment variables (IMPORTANT: Never commit these!)
+.env
+.env.*
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Backend (Symfony)
+backend/var/
+backend/vendor/
+backend/public/bundles/
+backend/config/secrets/prod/prod.decrypt.private.php
+
+# Frontend (Vue/Node)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.DS_Store
+frontend/coverage/
+frontend/.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build artifacts
+*.tsbuildinfo
+
+# Test results
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+__screenshots__/

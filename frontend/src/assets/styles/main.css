@@ -1,0 +1,11 @@
+/* Main stylesheet - imports all styles */
+
+/* Base styles */
+@import './base/variables.css';
+@import './base/reset.css';
+
+/* Component styles */
+@import './components/app.css';
+
+/* Layout styles will go here */
+/* @import './layouts/main-layout.css'; */
