@@ -1,8 +1,7 @@
 /* App Component Styles */
 #app {
   min-height: 100vh;
-  background: var(--gradient-primary);
-  padding: var(--spacing-lg);
+  /* Removed background and padding - dashboard handles its own styling */
 }
 
 .container {

@@ -1,4 +1,5 @@
-/* Main stylesheet - imports all styles */
+/* Tailwind CSS v4 - must come first */
+@import "tailwindcss";
 
 /* Base styles */
 @import './base/variables.css';
@@ -9,3 +10,5 @@
 
 /* Layout styles will go here */
 /* @import './layouts/main-layout.css'; */
+
+
