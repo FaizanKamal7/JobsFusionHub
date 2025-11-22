@@ -5,6 +5,6 @@
 </template>
 
 <script setup lang="ts">
-import JobSearchDashboard from './components/JobSearchDashboard.vue';
+import JobSearchDashboard from './components/JobSearchDashboard.vue'
 // CSS is imported in main.ts, no need to import here
 </script>
