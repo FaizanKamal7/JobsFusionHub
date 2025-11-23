@@ -20,10 +20,10 @@ use Doctrine\ORM\Mapping as ORM;
 class Job
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
-    #[ORM\Column(type: 'guid', nullable: true)]
+    #[ORM\Column(type: 'uuid', nullable: true)]
     private ?string $canonicalId = null;
 
     #[ORM\Column(type: 'string', length: 500)]

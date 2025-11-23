@@ -14,7 +14,7 @@ use Doctrine\ORM\Mapping as ORM;
 class ResumeJobMatch
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\ManyToOne(targetEntity: Resume::class, inversedBy: 'jobMatches')]

@@ -16,7 +16,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Application
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\ManyToOne(targetEntity: CandidateProfile::class, inversedBy: 'applications')]

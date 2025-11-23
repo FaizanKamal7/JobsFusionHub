@@ -14,7 +14,7 @@ use Doctrine\ORM\Mapping as ORM;
 class CandidateProfile
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\OneToOne(inversedBy: 'candidateProfile', targetEntity: User::class, cascade: ['persist'])]

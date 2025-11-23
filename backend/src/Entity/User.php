@@ -17,7 +17,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 class User implements UserInterface, PasswordAuthenticatedUserInterface
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\Column(type: 'string', length: 255, unique: true)]

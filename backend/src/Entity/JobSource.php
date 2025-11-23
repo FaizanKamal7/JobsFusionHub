@@ -14,7 +14,7 @@ use Doctrine\ORM\Mapping as ORM;
 class JobSource
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\ManyToOne(targetEntity: Job::class, inversedBy: 'jobSources')]

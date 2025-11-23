@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class ScraperRun
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\ManyToOne(targetEntity: ScraperConfig::class, inversedBy: 'scraperRuns')]

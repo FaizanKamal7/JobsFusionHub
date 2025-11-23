@@ -12,7 +12,7 @@ use Doctrine\ORM\Mapping as ORM;
 class SearchHistory
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\ManyToOne(targetEntity: User::class, inversedBy: 'searchHistories')]

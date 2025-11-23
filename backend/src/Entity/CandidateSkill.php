@@ -12,7 +12,7 @@ use Doctrine\ORM\Mapping as ORM;
 class CandidateSkill
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\ManyToOne(targetEntity: CandidateProfile::class, inversedBy: 'skills')]

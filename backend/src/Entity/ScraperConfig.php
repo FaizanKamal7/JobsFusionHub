@@ -14,7 +14,7 @@ use Doctrine\ORM\Mapping as ORM;
 class ScraperConfig
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'guid')]
+    #[ORM\Column(type: 'uuid')]
     private ?string $id = null;
 
     #[ORM\Column(type: 'string', length: 100, unique: true)]
